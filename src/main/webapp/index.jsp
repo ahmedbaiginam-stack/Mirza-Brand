@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="com.model.User" %>
+<%@ page import="com.model.*" %>
 <%
     User appUser = (User) session.getAttribute("user");
     String role = (appUser != null) ? appUser.getRole() : "CUSTOMER";

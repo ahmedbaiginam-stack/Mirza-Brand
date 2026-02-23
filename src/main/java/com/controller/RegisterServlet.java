@@ -2,7 +2,6 @@ package com.controller;
 
 import com.mirza.util.DBConnection;
 import com.model.User;
-import com.mirza.util.DBConnection;
 //REMOVED jakarta imports
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
