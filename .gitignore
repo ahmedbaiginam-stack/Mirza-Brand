@@ -1,0 +1,12 @@
+/target/
+/build/
+/.settings/
+/.project
+/.classpath
+*.class
+*.warFirst_project.war 
+.settings/ 
+.project 
+.classpath 
+target/ 
+*.war 
