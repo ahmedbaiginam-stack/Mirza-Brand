@@ -5,22 +5,20 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    
-    private static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";
-    private static final String USER = "system"; 
-    private static final String PASS = "system"; 
 
-    public static Connection getConnection()
-    {
-        Connection conn = null;
-        try 
-        {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
-            conn = DriverManager.getConnection(URL, USER, PASS);
-        } 
-        catch (ClassNotFoundException | SQLException e) {
+	private static final String URL =
+			"jdbc:postgresql://containers-us-west-45.railway.app:6543/railway";
+
+    private static final String USER = "postgres";
+    private static final String PASS = "KUDXIfyrhHiLtxiuGoJyeUzdiLRRmbcn";
+
+    public static Connection getConnection() {
+        try {
+            Class.forName("org.postgresql.Driver");
+            return DriverManager.getConnection(URL, USER, PASS);
+        } catch (Exception e) {
             e.printStackTrace();
+            return null;
         }
-        return conn;
     }
 }
