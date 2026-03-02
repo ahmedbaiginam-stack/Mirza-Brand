@@ -1,9 +1,10 @@
 package com.controller;
 
-import jakarta.servlet.annotation.WebServlet;
+
 
 import java.io.IOException;
 
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
 @WebServlet("/logout")
