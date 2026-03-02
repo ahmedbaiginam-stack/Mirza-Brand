@@ -7,9 +7,10 @@ import java.sql.SQLException;
 public class DBConnection {
 
 	private static final String URL =
-			"jdbc:postgresql://containers-us-west-45.railway.app:6543/railway";
+			"\r\n"
+			+ "postgresql://postgres:KUDXIfyrhHiLtxiuGoJyeUzdiLRRmbcn@postgres.railway.internal:5432/railway";
 
-    private static final String USER = "postgres";
+    private static final String USER = "railway";
     private static final String PASS = "KUDXIfyrhHiLtxiuGoJyeUzdiLRRmbcn";
 
     public static Connection getConnection() {
