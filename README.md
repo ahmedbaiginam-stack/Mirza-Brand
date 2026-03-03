@@ -28,7 +28,7 @@ Originally conceived as a local legacy application, **MIRZA Clothing Brand** und
 This project is a deep dive into **Relational Data Modeling** and **Asynchronous API management**.
 
 ### 🛠️ The Architecture
-![MIRZA-Brand](./src/main/webapp/image/desktop1.png "Desktop Demo")
+![MIRZA-Brand](./src/main/webapp/image/desktop12.png "Desktop Demo")
 
 * **The Brain (Backend):** A robust Java Spring Boot engine handling secure business logic and RESTful routing.
 * **The Face (Frontend):** A high-performance React-driven UI, optimized for rapid rendering and mobile responsiveness.
